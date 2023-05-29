@@ -31,9 +31,8 @@ main {
 
 section#redes-sociais {
     height: 950px;
-    width: 100px;
-    
-    padding-top: 10px;
+    width: 80px;    
+    padding-top: 9px;
 }
 
 li {
@@ -41,7 +40,7 @@ li {
 }
 
 section li a img {
-    width: 70px;
+    width: 60px;
     border-radius: 100%;
     display: block;
     margin: 0px auto 20px auto;
@@ -54,8 +53,11 @@ section li a img:hover {
 }
 
 iframe {
+    width: 269px;
+    height: 470px;
     margin-top: 80px;
     margin-left: 22px;
+
 }
 
 li a {
