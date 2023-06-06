@@ -30,26 +30,24 @@ main {
 }
 
 section#redes-sociais {
-    height: 950px;
-    width: 80px;    
+    text-align: right;
+     
     padding-top: 9px;
 }
 
-li {
-    list-style-type: none;
-}
-
-section li a img {
-    width: 60px;
+#redes-sociais img {
+    width: 60px;   
+    
+    margin: 8px;
     border-radius: 100%;
-    display: block;
-    margin: 0px auto 20px auto;
-    box-shadow: 4px 4px 10px 0px #000000b9;
+    box-shadow: 4px 4px 10px 0px #00000088;
+    box-sizing: border-box;
 }
 
-section li a img:hover {
-    transition: 0.5s;
-    transform: scale(0.9);
+#redes-sociais img:hover {
+    border: 2px solid white;
+    /*transition: 0.5s;
+    transform: scale(0.9);*/
 }
 
 iframe {
@@ -57,9 +55,4 @@ iframe {
     height: 470px;
     margin-top: 80px;
     margin-left: 22px;
-
-}
-
-li a {
-    width: 200px;
 }
