@@ -29,9 +29,16 @@ main {
     background: url('../imagens/frame-iphone.png') center center no-repeat fixed;
 }
 
+iframe {
+    width: 269px;
+    height: 470px;
+    margin-top: 80px;
+    margin-left: 22px;
+}
+
+
 section#redes-sociais {
-    text-align: right;
-     
+    text-align: right;       
     padding-top: 9px;
 }
 
@@ -44,14 +51,12 @@ section#redes-sociais {
 }
 
 #redes-sociais img:hover {
-    border: 2px solid white;
+    border: 2px solid #ffffff98;
+    transform: translate(-3px /*Left*/, -3px /*Top*/); 
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.664);
+    transition: transform 0.3s, border 0.2s;
+   
     /*transition: 0.5s;
     transform: scale(0.9);*/
 }
 
-iframe {
-    width: 269px;
-    height: 470px;
-    margin-top: 80px;
-    margin-left: 22px;
-}
